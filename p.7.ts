@@ -10,8 +10,9 @@
         Sunday
     }
 
+
     function getDayType(day: Day): string {
-        switch (day) {
+        switch(day) {
             case Day.Saturday:
             case Day.Sunday:
                 return "Weekend";
